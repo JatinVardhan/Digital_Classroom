@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Brayden:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: rgb(58, 58, 70);
+}
+.header_logo {
+  font-family: "Sriracha", cursive;
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-color: rgb(197, 231, 236);
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 8px;
+}
+
+.btn1 {
+  align-items: center;
+  background-color: #3d8def;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  padding: 0 16px;
+  text-align: left;
+  transition: box-shadow 0.15s, transform 0.15s;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.btn1:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.btn1:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn1:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.h2 {
+  text-align: center!important;
+  font-family: "Merienda", cursive !important;
+  letter-spacing: 2px!important;
+  font-weight: 700!important;
+  margin: 15px !important;
+  color:   rgb(58, 58, 70) !important;
+}
+label {
+  color: #343a40;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+#department-select,
+#role ,
+#semester{
+  width: 20rem;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  border: 2px solid rgb(58, 58, 70);
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: rgb(233, 235, 235);
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="tel"]:hover,
+#department-select:hover,
+#role:hover,#semester:hover,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+#department-select:focus,
+#role:focus,#semester:focus {
+  width: 20rem;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  border: 2px solid rgb(58, 58, 70);
+  border-radius: 5px;
+  /* box-shadow:0 0 3px 2px rgb(181, 179, 179); */
+  background-color: rgb(232, 240, 250);
+  box-shadow: none;
+}
+.form-group {
+  padding-bottom: 20px !important;
+}
+.error {
+  color: red;
+  margin-top: -14px;
+  font-size: small;
+}
+.custom-alert { 
+  position: fixed !important;
+  top: 75px !important;
+  left: 73% !important;
+  width: 26% !important;
+  z-index: 9999 !important;
+  animation: fadeInRight 0.5s !important;
+}
+.custom-alert1 { 
+  position: fixed !important;
+  top: 75px !important;
+  left: 60% !important;
+  width: 40% !important;
+  z-index: 9999 !important;
+  animation: fadeInRight 0.5s !important;
+}
+.alert-success {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: 3px solid rgb(79, 205, 102) !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+
+.alert-danger {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: 3px solid rgb(244, 88, 88) !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+.alert-warning {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: 3px solid rgb(217, 203, 79) !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 55px !important;
+  height: 55px !important;
+  border: none !important;
+  border-radius: 50% !important;
+}
+
+.circle1 {
+  background-color: rgb(79, 205, 102) !important;
+}
+
+.circle2 {
+  background-color: rgb(244, 88, 88) !important;
+}
+.circle3 {
+  background-color: rgb(217, 203, 79) !important;
+}
+.err,
+.succ,
+.info {
+  color: white !important;
+  font-size: 1.5rem !important;
+}
+
+.alert-text {
+  color: black !important;
+  text-align: justify !important;
+  width: 78% !important;
+}
+.note-text{
+  color: black !important;
+  text-align: justify !important;
+  width: 85% !important;
+}
+.cen{
+  text-align: center !important;
+}

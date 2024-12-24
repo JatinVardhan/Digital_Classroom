@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+body {
+  background-color: #dbe5e8 !important;
+  font-family: "Roboto", sans-serif !important;
+}
+main {
+  height: 100vh !important;
+  overflow-y: auto !important;
+}
+.container {
+  background-color: rgb(202, 236, 241) !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  border-radius: 5px !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px !important;
+  margin-top: 100px !important;
+  margin-bottom: 50px !important;
+}
+label {
+  font-weight: bold !important;
+  margin-bottom: 5px !important;
+}
+
+.btn1 {
+  align-items: center !important;
+  background-color: #3d8def !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  height: 40px !important;
+  justify-content: center !important;
+  padding: 0 16px !important;
+  text-align: left !important;
+  transition: box-shadow 0.15s, transform 0.15s !important;
+  will-change: box-shadow, transform !important;
+  font-size: 18px !important;
+  text-decoration: none !important;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+#department-select,
+#semester,
+#classDescription {
+  width: 20rem !important;
+  padding: 5px 10px !important;
+  margin-bottom: 15px !important;
+  border: 2px solid rgb(58, 58, 70) !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="tel"]:hover,
+#department-select:hover,
+#semester:hover,
+#classDescription :hover,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+#department-select:focus,
+#semester:focus,
+#classDescription :focus {
+  width: 20rem !important;
+  padding: 5px 10px !important;
+  margin-bottom: 15px !important;
+  border: 2px solid rgb(58, 58, 70) !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 3px 2px rgb(181, 179, 179) !important;
+  background-color: rgb(239, 241, 239) !important;
+  box-shadow: none !important;
+}
+.select-open {
+  color: black !important;
+  background-color: white !important;
+}
+.btn1:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset !important;
+}
+
+.btn1:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset !important;
+  transform: translateY(-2px) !important;
+}
+
+.btn1:active {
+  box-shadow: #3c4fe0 0 3px 7px inset !important;
+  transform: translateY(2px) !important;
+}
+.error {
+  color: red !important;
+  margin-top: -13px !important;
+  font-size: small !important;
+}
+table {
+  margin: auto !important;
+}
+table,
+td,
+th {
+  border: 3px solid rgb(0, 0, 0) !important;
+  border-collapse: collapse !important;
+  padding: 10px !important;
+}
+thead tr {
+  background-color: rgb(58, 58, 70) !important;
+  color: white !important;
+  text-align: center !important;
+}
+tbody tr:nth-child(odd) {
+  background-color: white !important;
+}
+tbody tr:nth-child(even) {
+  background-color: rgb(214, 215, 215) !important;
+}
+.cen{
+  text-align: center !important;
+}
+.h2 {
+  text-align: center !important;
+  font-family: "Merienda", cursive !important;
+  letter-spacing: 2px !important;
+  font-weight: 700 !important;
+  margin: 15px !important;
+  color: rgb(58, 58, 70) !important;
+}
+h4 {
+  text-align: center !important;
+  font-family: "Tahoma", sans-serif !important;
+}
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  color: white !important;
+}
+.form-group {
+  margin-top: 15px !important;
+}
+form {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.custom-alert {
+  position: fixed !important;
+  top: 75px !important;
+  left: 73% !important;
+  width: 26% !important;
+  z-index: 9999 !important;
+  animation: fadeInRight 0.5s !important;
+}
+.custom-alert1 {
+  position: fixed !important;
+  top: 75px !important;
+  left: 60% !important;
+  width: 40% !important;
+  z-index: 9999 !important;
+  animation: fadeInRight 0.5s !important;
+}
+.alert-success {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: 3px solid rgb(79, 205, 102) !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+
+.alert-danger {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: 3px solid rgb(244, 88, 88) !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+.alert-warning {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: 3px solid rgb(208, 204, 73) !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 55px !important;
+  height: 55px !important;
+  border: none !important;
+  border-radius: 50% !important;
+}
+
+.circle1 {
+  background-color: rgb(79, 205, 102) !important;
+}
+
+.circle2 {
+  background-color: rgb(244, 88, 88) !important;
+}
+.circle3 {
+  background-color: rgb(208, 204, 73) !important;
+}
+.err,
+.succ,
+.info {
+  color: white !important;
+  font-size: 1.5rem !important;
+}
+
+.alert-text {
+  color: black !important;
+  text-align: justify !important;
+  width: 80% !important;
+}
+.note-text {
+  color: black !important;
+  text-align: justify !important;
+  width: 85% !important;
+}
